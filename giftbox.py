@@ -17,4 +17,4 @@ print("We have selected:\nDark Chocolate Hazelnut, White Chocolate Coffee Creams
 totalPrice = (darkChocolateHazelNut * 2) + (whiteChocolateCoffeeCreams * 2) + (milkChocolateCaramel * 2)
 tax = totalPrice * SALES_TAX
 totalPrice += tax
-print(totalPrice)
+print("$" + str(round(totalPrice, 2)))
