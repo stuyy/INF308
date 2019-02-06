@@ -15,5 +15,3 @@ totalPrice = (darkChocolateHazelNut * 2) + (whiteChocolateCoffeeCreams * 2) + (m
 tax = totalPrice * SALES_TAX # Multiply the price by the tax rate to get the tax.
 totalPrice += tax # Add the total price with the total tax.
 print("Total Price: $" + str(round(totalPrice, 2))) # Print out the total price.
-
-
